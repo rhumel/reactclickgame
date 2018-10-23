@@ -13,7 +13,7 @@ class App extends Component {
     clicked: []
   };
 
-  //shuffle the initial file. 
+  //shuffle the initial file.// 
   componentDidMount() {
     this.setState({ families: this.shuffle(families) })
 
